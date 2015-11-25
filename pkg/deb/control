@@ -1,0 +1,20 @@
+Source: #PACKAGE#
+Maintainer: Vladimir Fofana <vfofana@iponweb.net>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), debhelper (>= 7)
+Standards-Version: 3.9.1
+
+
+
+Package: python-#PACKAGE#
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Request Tracker REST Interface
+ ==============================
+ Request Tracker REST Interface
+ ==============================
+ https://github.com/vlfofana/python-rtkit
+ .
+ `Best Practical RT`_ (Request Tracker) data access python module for REST interface.
+ .

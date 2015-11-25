@@ -6,7 +6,6 @@ wd = os.path.dirname(os.path.abspath(__file__))
 os.chdir(wd)
 sys.path.insert(1, wd)
 
-name = 'python-rtkit'
 pkg = __import__('rtkit')
 
 author, email = pkg.__author__.rsplit(' ', 1)
@@ -25,13 +24,13 @@ except (IOError, OSError):
     reqs = ''
 
 setup(
-    name=name,
-    version=version,
+    name='rtkit',
+    version='0.7.1',
     author=author,
     author_email=email,
-    url='http://z4r.github.com/python-rtkit/',
-    maintainer=author,
-    maintainer_email=email,
+    url='https://github.com/vlfofana/python-rtkit',
+    maintainer='Vladimir Fofana',
+    maintainer_email='vfofana@iponweb.net',
     description=description,
     long_description=long_description,
     classifiers=classifiers,
