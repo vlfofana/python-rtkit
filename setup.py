@@ -25,7 +25,7 @@ except (IOError, OSError):
 
 setup(
     name='rtkit',
-    version='0.7.1',
+    version='0.7.2',
     author=author,
     author_email=email,
     url='https://github.com/vlfofana/python-rtkit',

@@ -19,7 +19,7 @@ override_dh_auto_build:
 
 
 override_dh_auto_install:
-	python setup.py install --force --root=debian/python-python-rtkit --no-compile -O0 --install-layout=deb  
+	python setup.py install --force --root=debian/python-rtkit --no-compile -O0 --install-layout=deb
 
 
 
